@@ -16,6 +16,7 @@
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0%;
+  cursor: pointer;
 }
 #hero_main {
   /* background-image: url(../assets/hero-bg.png); */
@@ -32,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 #hero_main .hero_content {
   width: 818.4px;
@@ -66,3 +68,79 @@
   opacity: 0.7;
   margin-bottom: 25px;
 }
+/* hero section snds */
+
+/* card box section starts */
+#card_box_main {
+  width: 1056px;
+  margin: 0 auto;
+}
+#card_box_main .title_box {
+  text-align: center;
+}
+
+#card_box_main .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  opacity: 0.6;
+  margin-bottom: 14px;
+}
+#card_box_main .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  margin-bottom: 44px;
+}
+.card_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  max-width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  text-align: center;
+}
+.card .image_box img {
+  width: 100%;
+}
+.Shop {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  padding: 10px 25px 10px 26px;
+}
+.card h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+}
+.card p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+/* card box section ends */
