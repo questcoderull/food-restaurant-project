@@ -17,6 +17,10 @@
   font-weight: 500;
   letter-spacing: 0%;
   cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgb(255, 186, 13);
 }
 #hero_main {
   /* background-image: url(../assets/hero-bg.png); */
